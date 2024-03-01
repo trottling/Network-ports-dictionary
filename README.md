@@ -1,5 +1,8 @@
 # Port Dictionary
-Simple python Dictionary for TCP ports. Usefull when code throws port number description, instead of diplaying port like `404`, show message what it means. 
+Dictionary for TCP ports. Usefull when code throws port number description, instead of diplaying port like `443`, show message what it means. 
+
+Format
+> "0": {"Transport Protocol": "tcp", "Service Name": "", "Description": "Reserved"}
 
 Edit it for your language syntax
 
