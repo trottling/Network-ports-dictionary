@@ -1,0 +1,42 @@
+{
+  "9": {
+    "Service Name": "discard",
+    "Description": "Discard"
+  },
+  "1021": {
+    "Service Name": "exp1",
+    "Description": "RFC3692-style Experiment 1"
+  },
+  "1022": {
+    "Service Name": "exp2",
+    "Description": "RFC3692-style Experiment 2"
+  },
+  "1113": {
+    "Service Name": "ltp-deepspace",
+    "Description": "Licklider Transmission Protocol"
+  },
+  "4195": {
+    "Service Name": "aws-wsp",
+    "Description": "AWS protocol for cloud remoting solution"
+  },
+  "4556": {
+    "Service Name": "dtn-bundle",
+    "Description": "DTN Bundle DCCP CL Protocol"
+  },
+  "5004": {
+    "Service Name": "avt-profile-1",
+    "Description": "RTP media data"
+  },
+  "5005": {
+    "Service Name": "avt-profile-2",
+    "Description": "RTP control protocol"
+  },
+  "6514": {
+    "Service Name": "syslog-tls",
+    "Description": "syslog over DTLS"
+  },
+  "8282": {
+    "Service Name": "",
+    "Description": "Reserved"
+  }
+}

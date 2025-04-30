@@ -1,0 +1,366 @@
+{
+  "9": {
+    "Service Name": "discard",
+    "Description": "Discard"
+  },
+  "20": {
+    "Service Name": "ftp-data",
+    "Description": "FTP"
+  },
+  "21": {
+    "Service Name": "ftp",
+    "Description": "FTP"
+  },
+  "22": {
+    "Service Name": "ssh",
+    "Description": "SSH"
+  },
+  "80": {
+    "Service Name": "http",
+    "Description": "HTTP"
+  },
+  "179": {
+    "Service Name": "bgp",
+    "Description": "BGP"
+  },
+  "443": {
+    "Service Name": "https",
+    "Description": "HTTPS"
+  },
+  "1021": {
+    "Service Name": "exp1",
+    "Description": "RFC3692-style Experiment 1"
+  },
+  "1022": {
+    "Service Name": "exp2",
+    "Description": "RFC3692-style Experiment 2"
+  },
+  "1167": {
+    "Service Name": "cisco-ipsla",
+    "Description": "Cisco IP SLAs Control Protocol"
+  },
+  "1528": {
+    "Service Name": "norp",
+    "Description": "Not Only a Routeing Protocol"
+  },
+  "1720": {
+    "Service Name": "h323hostcall",
+    "Description": "H.323 Call Control"
+  },
+  "2049": {
+    "Service Name": "nfs",
+    "Description": "Network File System"
+  },
+  "2225": {
+    "Service Name": "rcip-itu",
+    "Description": "Resource Connection Initiation Protocol"
+  },
+  "2904": {
+    "Service Name": "m2ua",
+    "Description": "M2UA"
+  },
+  "2905": {
+    "Service Name": "m3ua",
+    "Description": "M3UA"
+  },
+  "2944": {
+    "Service Name": "megaco-h248",
+    "Description": "Megaco-H.248 text"
+  },
+  "2945": {
+    "Service Name": "h248-binary",
+    "Description": "Megaco/H.248 binary"
+  },
+  "3097": {
+    "Service Name": "itu-bicc-stc",
+    "Description": "ITU-T Q.1902.1/Q.2150.3"
+  },
+  "3565": {
+    "Service Name": "m2pa",
+    "Description": "M2PA"
+  },
+  "3863": {
+    "Service Name": "asap-sctp",
+    "Description": "asap sctp"
+  },
+  "3864": {
+    "Service Name": "asap-sctp-tls",
+    "Description": "asap-sctp/tls"
+  },
+  "3868": {
+    "Service Name": "diameter",
+    "Description": "DIAMETER"
+  },
+  "4195": {
+    "Service Name": "aws-wsp",
+    "Description": "AWS protocol for cloud remoting solution"
+  },
+  "4333": {
+    "Service Name": "ahsp",
+    "Description": "ArrowHead Service Protocol (AHSP)"
+  },
+  "4502": {
+    "Service Name": "a25-fap-fgw",
+    "Description": "A25 (FAP-FGW)"
+  },
+  "4711": {
+    "Service Name": "trinity-dist",
+    "Description": "Trinity Trust Network Node Communication"
+  },
+  "4739": {
+    "Service Name": "ipfix",
+    "Description": "IP Flow Info Export"
+  },
+  "4740": {
+    "Service Name": "ipfixs",
+    "Description": "ipfix protocol over DTLS"
+  },
+  "5060": {
+    "Service Name": "sip",
+    "Description": "SIP"
+  },
+  "5061": {
+    "Service Name": "sips",
+    "Description": "SIP-TLS"
+  },
+  "5090": {
+    "Service Name": "car",
+    "Description": "Candidate AR"
+  },
+  "5091": {
+    "Service Name": "cxtp",
+    "Description": "Context Transfer Protocol"
+  },
+  "5215": {
+    "Service Name": "noteza",
+    "Description": "NOTEZA Data Safety Service"
+  },
+  "5445": {
+    "Service Name": "smbdirect",
+    "Description": "Server Message Block over Remote Direct Memory Access"
+  },
+  "5672": {
+    "Service Name": "amqp",
+    "Description": "AMQP"
+  },
+  "5675": {
+    "Service Name": "v5ua",
+    "Description": "V5UA application port"
+  },
+  "5868": {
+    "Service Name": "diameters",
+    "Description": "Diameter over DTLS/SCTP"
+  },
+  "5903": {
+    "Service Name": "ff-ice",
+    "Description": "Flight & Flow Info for Collaborative Env"
+  },
+  "5904": {
+    "Service Name": "ag-swim",
+    "Description": "Air-Ground SWIM"
+  },
+  "5905": {
+    "Service Name": "asmgcs",
+    "Description": "Adv Surface Mvmnt and Guidance Cont Sys"
+  },
+  "5906": {
+    "Service Name": "rpas-c2",
+    "Description": "Remotely Piloted Vehicle C&C"
+  },
+  "5907": {
+    "Service Name": "dsd",
+    "Description": "Distress and Safety Data App"
+  },
+  "5908": {
+    "Service Name": "ipsma",
+    "Description": "IPS Management Application"
+  },
+  "5909": {
+    "Service Name": "agma",
+    "Description": "Air-ground media advisory"
+  },
+  "5910": {
+    "Service Name": "cm",
+    "Description": "Context Management"
+  },
+  "5911": {
+    "Service Name": "cpdlc",
+    "Description": "Controller Pilot Data Link Communication"
+  },
+  "5912": {
+    "Service Name": "fis",
+    "Description": "Flight Information Services"
+  },
+  "5913": {
+    "Service Name": "ads-c",
+    "Description": "Automatic Dependent Surveillance"
+  },
+  "5914": {
+    "Service Name": "ipsdtls",
+    "Description": "Security for Internet Protocol Suite"
+  },
+  "6701": {
+    "Service Name": "",
+    "Description": "Unassigned"
+  },
+  "6702": {
+    "Service Name": "",
+    "Description": "Unassigned"
+  },
+  "6704": {
+    "Service Name": "frc-hp",
+    "Description": "ForCES HP (High Priority) channel"
+  },
+  "6705": {
+    "Service Name": "frc-mp",
+    "Description": "ForCES MP (Medium Priority) channel"
+  },
+  "6706": {
+    "Service Name": "frc-lp",
+    "Description": "ForCES LP (Low priority) channel"
+  },
+  "6970": {
+    "Service Name": "conductor-mpx",
+    "Description": "conductor for multiplex"
+  },
+  "7626": {
+    "Service Name": "simco",
+    "Description": "SImple Middlebox COnfiguration (SIMCO)"
+  },
+  "7701": {
+    "Service Name": "nfapi",
+    "Description": "SCF nFAPI defining MAC/PHY split"
+  },
+  "7728": {
+    "Service Name": "osvr",
+    "Description": "Open-Source Virtual Reality"
+  },
+  "8282": {
+    "Service Name": "",
+    "Description": "Reserved"
+  },
+  "8471": {
+    "Service Name": "pim-port",
+    "Description": "PIM over Reliable Transport"
+  },
+  "9082": {
+    "Service Name": "lcs-ap",
+    "Description": "LCS Application Protocol"
+  },
+  "9084": {
+    "Service Name": "aurora",
+    "Description": "IBM AURORA Performance Visualizer"
+  },
+  "9900": {
+    "Service Name": "iua",
+    "Description": "IUA"
+  },
+  "9901": {
+    "Service Name": "enrp-sctp",
+    "Description": "enrp server channel"
+  },
+  "9902": {
+    "Service Name": "enrp-sctp-tls",
+    "Description": "enrp/tls server channel"
+  },
+  "11235": {
+    "Service Name": "xcompute",
+    "Description": "numerical systems messaging"
+  },
+  "11997": {
+    "Service Name": "wmereceiving",
+    "Description": "WorldMailExpress"
+  },
+  "11998": {
+    "Service Name": "wmedistribution",
+    "Description": "WorldMailExpress"
+  },
+  "11999": {
+    "Service Name": "wmereporting",
+    "Description": "WorldMailExpress"
+  },
+  "14001": {
+    "Service Name": "sua",
+    "Description": "SUA"
+  },
+  "19999": {
+    "Service Name": "dnp-sec",
+    "Description": "Distributed Network Protocol - secured"
+  },
+  "20000": {
+    "Service Name": "dnp",
+    "Description": "Distributed Network Protocol"
+  },
+  "20049": {
+    "Service Name": "nfsrdma",
+    "Description": "Network File System (NFS) over RDMA"
+  },
+  "25471": {
+    "Service Name": "rna",
+    "Description": "RNSAP User Adaptation for Iurh"
+  },
+  "29118": {
+    "Service Name": "sgsap",
+    "Description": "SGsAP in 3GPP"
+  },
+  "29168": {
+    "Service Name": "sbcap",
+    "Description": "SBcAP in 3GPP"
+  },
+  "29169": {
+    "Service Name": "iuhsctpassoc",
+    "Description": "HNBAP and RUA Common Association"
+  },
+  "30100": {
+    "Service Name": "rwp",
+    "Description": "Remote Window Protocol"
+  },
+  "36412": {
+    "Service Name": "s1-control",
+    "Description": "S1-Control Plane (3GPP)"
+  },
+  "36422": {
+    "Service Name": "x2-control",
+    "Description": "X2-Control Plane (3GPP)"
+  },
+  "36423": {
+    "Service Name": "slmap",
+    "Description": "SLm Interface Application Protocol"
+  },
+  "36424": {
+    "Service Name": "nq-ap",
+    "Description": "Nq and Nq' Application Protocol"
+  },
+  "36443": {
+    "Service Name": "m2ap",
+    "Description": "M2 Application Part"
+  },
+  "36444": {
+    "Service Name": "m3ap",
+    "Description": "M3 Application Part"
+  },
+  "36462": {
+    "Service Name": "xw-control",
+    "Description": "Xw-Control Plane (3GPP)"
+  },
+  "37472": {
+    "Service Name": "3gpp-w1ap",
+    "Description": "W1 signalling transport"
+  },
+  "38412": {
+    "Service Name": "ng-control",
+    "Description": "NG Control Plane (3GPP)"
+  },
+  "38422": {
+    "Service Name": "xn-control",
+    "Description": "Xn Control Plane (3GPP)"
+  },
+  "38462": {
+    "Service Name": "e1-interface",
+    "Description": "E1 signalling transport (3GPP)"
+  },
+  "38472": {
+    "Service Name": "f1-control",
+    "Description": "F1 Control Plane (3GPP)"
+  }
+}
