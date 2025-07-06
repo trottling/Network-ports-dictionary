@@ -1,4 +1,4 @@
-## 🇷🇺  [Русская версия](./README_EN.md)
+## 🇷🇺  [Русская версия](./README.md)
 
 # TCP/UDP Port Dictionary
 
