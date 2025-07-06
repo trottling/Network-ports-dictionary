@@ -15,7 +15,7 @@
 1. Поместите CSV-файл (например, `service-names-port-numbers.csv`) в каталог проекта.
 2. Запустите скрипт:
 
-   ``bash
+   ```bash
    python update-from-csv-file.py service-names-port-numbers.csv
    ```
 
@@ -25,7 +25,7 @@
 
 Каждый JSON-файл имеет следующую структуру:
 
-``json
+```json
 {
   «80": {
     «Имя службы": «http»,
@@ -39,7 +39,4 @@
 ```
 
 ## Требования
-
 - Python 3.x
-
-Переведено с помощью DeepL.com (бесплатная версия)
