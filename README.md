@@ -1,43 +1,45 @@
-[Русская версия](README_RU.md)
+## 🇬🇧  [English version](README_EN.md)
 
 # TCP/UDP Port Dictionary
 
-This project provides a tool to convert a CSV file from [http://www.iana.org](https://www.iana.org/assignments/service-names-port-numbers) with port and protocol information into separate JSON files for each protocol (e.g., `tcp.json`, `udp.json`). Each JSON file contains a dictionary where the key is the port number and the value is an object with the service name and description.
+Этот проект предоставляет инструмент для преобразования CSV-файла из [http://www.iana.org](https://www.iana.org/assignments/service-names-port-numbers) с информацией о порте и протоколе в отдельные JSON-файлы для каждого протокола (например, `tcp.json`, `udp.json`). Каждый JSON-файл содержит словарь, где ключом является номер порта, а значением - объект с именем и описанием сервиса.
 
-## Features
+## Особенности
 
-- Parses single ports and port ranges (e.g., `80`, `272-279`).
-- Handles missing protocol, service name, or description fields.
-- Outputs one JSON file per protocol.
+- Разбирает отдельные порты и диапазоны портов (например, `80`, `272-279`).
+- Обрабатывает отсутствующие поля протокола, имени сервиса или описания.
+- Выводит один JSON-файл для каждого протокола.
 
-## Usage
+## Использование
 
-1. Place your CSV file (e.g., `service-names-port-numbers.csv`) in the project directory.
-2. Run the script:
+1. Поместите CSV-файл (например, `service-names-port-numbers.csv`) в каталог проекта.
+2. Запустите скрипт:
 
-   ```bash
+   ``bash
    python update-from-csv-file.py service-names-port-numbers.csv
    ```
 
-3. The script will generate files like `tcp.json`, `udp.json`, etc.
+3. Скрипт сгенерирует файлы типа `tcp.json`, `udp.json` и т.д.
 
-## Output Format
+## Формат выходных данных
 
-Each JSON file has the following structure:
+Каждый JSON-файл имеет следующую структуру:
 
-```json
+``json
 {
-  "80": {
-    "Service Name": "http",
-    "Description": "World Wide Web HTTP"
+  «80": {
+    «Имя службы": «http»,
+    «Описание": «World Wide Web HTTP»
   },
-  "272": {
-    "Service Name": "",
-    "Description": "Unassigned"
+  «272": {
+    «Service Name": «»,
+    «Описание": «Unassigned»
   }
 }
 ```
 
-## Requirements
+## Требования
 
 - Python 3.x
+
+Переведено с помощью DeepL.com (бесплатная версия)
